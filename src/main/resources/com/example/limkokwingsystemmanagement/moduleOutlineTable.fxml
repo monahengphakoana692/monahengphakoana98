@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="608.0" prefWidth="1475.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.limkokwingsystemmanagement.Attendence">
+    <children>
+
+        <!-- Button to display classes -->
+        <Button fx:id="btndisplay" layoutX="50" layoutY="20" onAction="#Display" prefHeight="25.0" prefWidth="116.0" text="Display Classes" />
+
+        <!-- Label for classes -->
+        <Label layoutX="77.0" layoutY="60.0" text="Classes:">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font></Label>
+
+        <!-- ListView to display class names -->
+        <ListView fx:id="classListView" layoutX="50" layoutY="86.0" prefHeight="474.0" prefWidth="149.0" />
+
+        <TableView fx:id="attendanceTable" layoutX="200.0" layoutY="60.0" prefHeight="500.0" prefWidth="443.0">
+            <columns>
+                <TableColumn fx:id="timestampColumn" prefWidth="120" text="Timestamp" />
+                <TableColumn fx:id="studentNameColumn" prefWidth="120" text="Student Name" />
+                <TableColumn fx:id="presentColumn" prefWidth="100" text="Present" />
+                <TableColumn fx:id="absentColumn" prefWidth="100" text="Absent" />
+            </columns>
+        </TableView>
+
+        <!-- Button to show module outline -->
+        <Button fx:id="btnShowModuleOutline" layoutX="655.0" layoutY="20.0" mnemonicParsing="false" onAction="#ShowModuleOutline" prefHeight="25.0" prefWidth="143.0" text="Show Module Outline" />
+
+        <!-- Module Outline Table -->
+        <TableView fx:id="moduleOutlineTable" layoutX="655.0" layoutY="60.0" prefHeight="500.0" prefWidth="765.0">
+            <columns>
+                <TableColumn fx:id="chapterNumberColumn" prefWidth="100" text="Chapter Number" />
+                <TableColumn fx:id="chapterNameColumn" prefWidth="150" text="Chapter Name" />
+                <TableColumn fx:id="chapterDescriptionColumn" prefWidth="200" text="Chapter Description" />
+                <TableColumn fx:id="learningOutcomesColumn" prefWidth="315.0" text="Learning Outcomes" />
+
+            </columns>
+        </TableView>
+
+
+
+    </children>
+</AnchorPane>

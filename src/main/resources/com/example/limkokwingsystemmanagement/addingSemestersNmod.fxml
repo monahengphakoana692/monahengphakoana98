@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="811.0" prefWidth="1522.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.limkokwingsystemmanagement.AddingSemestersNmodCotroller">
+   <children>
+      <AnchorPane fx:id="AncId" prefHeight="811.0" prefWidth="1522.0" style="-fx-background-color: white;">
+         <children>
+            <ImageView fitHeight="899.0" fitWidth="1702.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@admin.jpg" />
+               </image>
+            </ImageView>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#14802c99" height="811.0" stroke="TRANSPARENT" strokeType="INSIDE" width="1672.0" />
+            <Pane layoutX="347.0" layoutY="89.0" prefHeight="455.0" prefWidth="368.0" style="-fx-background-color: white; -fx-border-color: black;">
+               <effect>
+                  <DropShadow />
+               </effect>
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" height="77.0" layoutY="1.0" stroke="TRANSPARENT" strokeMiterLimit="0.0" strokeType="INSIDE" width="368.0">
+                     <fill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                           <stops>
+                              <Stop>
+                                 <color>
+                                    <Color />
+                                 </color>
+                              </Stop>
+                              <Stop offset="1.0">
+                                 <color>
+                                    <Color red="0.0784313753247261" green="0.501960813999176" blue="0.18039216101169586" />
+                                 </color>
+                              </Stop>
+                           </stops>
+                        </LinearGradient>
+                     </fill>
+                  </Rectangle>
+                  <Text fill="WHITE" layoutX="88.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NEW SEMESTER">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                     <effect>
+                        <Blend />
+                     </effect>
+                  </Text>
+                  <Text fx:id="TermLblId" layoutX="19.0" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Term name" />
+                  <TextField fx:id="TermTxtId" layoutX="17.0" layoutY="135.0" prefHeight="42.0" prefWidth="297.0" />
+                  <Text fx:id="StartLblId" layoutX="20.0" layoutY="193.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Start date" />
+                  <TextField fx:id="StartTxtId" layoutX="17.0" layoutY="205.0" prefHeight="42.0" prefWidth="297.0" />
+                  <Text fx:id="EndLblId" layoutX="20.0" layoutY="261.0" strokeType="OUTSIDE" strokeWidth="0.0" text="End date" />
+                  <TextField fx:id="endDateID" layoutX="17.0" layoutY="275.0" prefHeight="42.0" prefWidth="297.0" />
+                  <Button fx:id="SavebtnId" layoutX="25.0" layoutY="390.0" mnemonicParsing="false" onAction="#saveSemNm" prefHeight="33.0" prefWidth="109.0" styleClass="SaveButtonBackground" stylesheets="@dashBoard.css" text="SAVE" textFill="WHITE" />
+               </children>
+            </Pane>
+            <Pane layoutX="715.0" layoutY="89.0" prefHeight="455.0" prefWidth="368.0" style="-fx-background-color: white; -fx-border-color: Black;">
+               <effect>
+                  <DropShadow />
+               </effect>
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" height="77.0" layoutY="1.0" strokeType="INSIDE" width="368.0">
+                     <fill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                           <stops>
+                              <Stop>
+                                 <color>
+                                    <Color red="0.0784313753247261" green="0.501960813999176" blue="0.18039216101169586" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="1.0">
+                                 <color>
+                                    <Color red="0.06978557258844376" green="0.09994152188301086" blue="0.10526315867900848" />
+                                 </color>
+                              </Stop>
+                           </stops>
+                        </LinearGradient>
+                     </fill>
+                     <stroke>
+                        <LinearGradient endX="1.0" endY="1.0">
+                           <stops>
+                              <Stop>
+                                 <color>
+                                    <Color red="0.3911111056804657" green="0.4386744499206543" blue="0.5052631497383118" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="1.0">
+                                 <color>
+                                    <Color red="1.0" green="1.0" blue="1.0" />
+                                 </color>
+                              </Stop>
+                           </stops>
+                        </LinearGradient>
+                     </stroke>
+                  </Rectangle>
+                  <Text fill="WHITE" layoutX="103.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NEW MODULE">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="LblModId" layoutX="14.0" layoutY="111.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Module Name" />
+                  <TextField fx:id="TxtModId" layoutX="15.0" layoutY="139.0" prefHeight="42.0" prefWidth="297.0" />
+                  <Text fx:id="LblCodeId" layoutX="15.0" layoutY="202.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Module Code" />
+                  <TextField fx:id="TxtCodeId" layoutX="16.0" layoutY="211.0" prefHeight="42.0" prefWidth="297.0" />
+                  <Text fx:id="LblHrsId" layoutX="18.0" layoutY="277.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Credit Hours" />
+                  <TextField fx:id="TxtHrsId" layoutX="15.0" layoutY="282.0" prefHeight="42.0" prefWidth="297.0" />
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

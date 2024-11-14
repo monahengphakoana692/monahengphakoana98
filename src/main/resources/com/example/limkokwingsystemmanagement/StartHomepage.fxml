@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="content" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="854.0" prefWidth="1576.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.limkokwingsystemmanagement.StartHomepageController">
+   <children>
+      <AnchorPane fx:id="content2" prefHeight="854.0" prefWidth="1576.0">
+         <children>
+            <ImageView fx:id="backgroundPic" fitHeight="921.0" fitWidth="1899.0" layoutX="-131.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Limkokwing.jpg" />
+               </image>
+            </ImageView>
+            <Rectangle fx:id="Bigrec" arcHeight="5.0" arcWidth="5.0" fill="#0d0d0db2" height="868.0" layoutY="-4.0" stroke="#00000003" strokeType="INSIDE" width="1578.0" />
+            <Rectangle fx:id="Smallrec" arcHeight="5.0" arcWidth="5.0" fill="#00000099" height="93.0" stroke="#0000000d" strokeType="INSIDE" width="1578.0" />
+            <ImageView fx:id="LimLogo" fitHeight="130.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@LimkokwingLogoPic.png" />
+               </image>
+            </ImageView>
+            <Text fx:id="AdminTxt" fill="WHITE" layoutX="677.0" layoutY="56.0" onMouseClicked="#Login" strokeType="OUTSIDE" strokeWidth="0.0" text="Admin">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text fx:id="LoginTxt" fill="WHITE" layoutX="582.0" layoutY="55.0" onMouseClicked="#Login" strokeType="OUTSIDE" strokeWidth="0.0" text="Login">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text fx:id="PrincipalTxt" fill="WHITE" layoutX="783.0" layoutY="54.0" onMouseClicked="#Login" strokeType="OUTSIDE" strokeWidth="0.0" text="Principal Lecurer">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text fx:id="LecturerTxt" fill="WHITE" layoutX="983.0" layoutY="55.0" onMouseClicked="#Login" strokeType="OUTSIDE" strokeWidth="0.0" text="Lecturer">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="656.0" layoutY="328.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&quot;IT'S THE SMALL ">
+               <font>
+                  <Font name="Elephant" size="35.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="614.0" layoutY="391.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DETAILS THAT WILL">
+               <font>
+                  <Font name="Elephant" size="35.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="553.0" layoutY="450.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MAKE A BIG DIFFERENCE&quot;">
+               <font>
+                  <Font name="Elephant" size="35.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="690.0" layoutY="549.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tan Sri Paduka Limkokwing">
+               <font>
+                  <Font name="Elephant" size="20.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

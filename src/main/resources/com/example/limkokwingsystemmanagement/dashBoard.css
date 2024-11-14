@@ -1,0 +1,31 @@
+
+#profilePaneID{
+    -fx-font-size: 14px; 
+    -fx-padding: 8px 12px;
+    /*-fx-background-color: #1E90FF; */
+    -fx-border-color: #1E90FF;
+    -fx-border-radius: 290px; 
+    -fx-
+}
+
+.AdminBackground{
+    -fx-background-color: linear-gradient(to right,#14802e,#37c801)
+
+}
+.BackgroundColor{
+    -fx-background-color: linear-gradient(to left,#14802e,#37c801)
+
+}
+.backgroundColor1
+{
+    -fx-background-color: linear-gradient(to right,#14802e,#37c801)
+
+}
+.AddLecture
+{
+    -fx-background-color: linear-gradient(to right,#18aa59,#40fa05)
+}
+.SaveButtonBackground
+{
+    -fx-background-color: linear-gradient(to right,#000000,#14802e)
+}

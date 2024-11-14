@@ -1,0 +1,122 @@
+Login at 2024-11-12 05:50:18 - User: ikaneng@19 - Role: Faculty Admin
+Login at 2024-11-12 05:54:05 - User: ikaneng@19 - Role: Faculty Admin
+Login at 2024-11-12 05:55:09 - User: ikaneng@19 - Role: Faculty Admin
+Login at 2024-11-12 06:01:54 - User: ikaneng@19 - Role: Faculty Admin
+Login at 2024-11-12 06:04:27 - User: ikaneng@19 - Role: Faculty Admin
+Login at 2024-11-12 06:05:52 - User: ikaneng@19 - Role: Faculty Admin
+Login at 2024-11-12 06:06:28 - User: ikaneng@19 - Role: Faculty Admin
+Login at 2024-11-12 06:07:47 - User: ikaneng@19 - Role: Faculty Admin
+Login at 2024-11-12 06:16:18 - User: ikaneng@19 - Role: Faculty Admin
+Login at 2024-11-12 06:30:20 - User: thabo@2345 - Role: Lecturer
+Login at 2024-11-12 06:32:41 - User: thabo@2345 - Role: Lecturer
+Login at 2024-11-12 06:35:03 - User: thabo@2345 - Role: Lecturer
+Login at 2024-11-12 06:52:13 - User: ikaneng@19 - Role: Faculty Admin
+Login at 2024-11-12 06:53:37 - User: ikaneng@19 - Role: Faculty Admin
+Login at 2024-11-12 07:27:21 - User: thabo@2345 - Role: Lecturer
+Login at 2024-11-12 07:31:05 - User: ikaneng@19 - Role: Faculty Admin
+Login at 2024-11-12 09:01:22 - User: ikaneng@19 - Role: Faculty Admin
+Login at 2024-11-12 09:09:02 - User: Lineo@1857 - Role: Principal Lecturer
+Login at 2024-11-12 09:12:02 - User: ikaneng@19 - Role: Faculty Admin
+Login at 2024-11-12 13:06:02 - User: Thabo@2345 - Role: Lecturer
+Login at 2024-11-12 13:12:30 - User: thabo@2345 - Role: Lecturer
+Login at 2024-11-12 16:08:54 - User: Thabo@2345 - Role: Lecturer
+Login at 2024-11-12 16:10:47 - User: Lineo@1857 - Role: Principal Lecturer
+Login at 2024-11-12 20:37:07 - User: MonahengPhakoana - Role: Lecturer
+Login at 2024-11-12 21:11:39 - User: MonahengPhakoana - Role: Lecturer
+Login at 2024-11-12 21:12:41 - User: Tlotlisomothibeli - Role: Principal Lecturer
+Login at 2024-11-12 21:13:41 - User: MonahengPhakoana - Role: Lecturer
+Login at 2024-11-12 22:43:54 - User: Monaheng Phakoana - Role: Faculty Admin
+Login at 2024-11-12 22:45:11 - User: Monaheng Phakoana - Role: Faculty Admin
+Login at 2024-11-12 22:45:57 - User: Tlotliso mothibeli - Role: Lecturer
+Login at 2024-11-12 22:50:16 - User: Monaheng Phakoana - Role: Faculty Admin
+Login at 2024-11-13 02:42:32 - User: Monaheng Phakoana - Role: Faculty Admin
+Login at 2024-11-13 02:53:33 - User: Thiza Mositi - Role: Principal Lecturer
+Login at 2024-11-13 02:59:09 - User: Thiza Mositi - Role: Principal Lecturer
+Login at 2024-11-13 03:00:08 - User: Monaheng Phakoana - Role: Faculty Admin
+Login at 2024-11-13 03:23:32 - User: Thiza Mositi - Role: Principal Lecturer
+Login at 2024-11-13 03:38:09 - User: Thiza Mositi - Role: Principal Lecturer
+Login at 2024-11-13 03:48:24 - User: Thiza Mositi - Role: Principal Lecturer
+Login at 2024-11-13 03:58:58 - User: Thiza Mositi - Role: Principal Lecturer
+Login at 2024-11-13 04:11:30 - User: Thiza Mositi - Role: Principal Lecturer
+Login at 2024-11-13 04:18:47 - User: Monaheng Phakoana - Role: Faculty Admin
+Login at 2024-11-13 04:19:54 - User: Tlotliso mothibeli - Role: Lecturer
+Login at 2024-11-13 04:25:16 - User: Monaheng Phakoana - Role: Faculty Admin
+Login at 2024-11-13 04:59:18 - User: Monaheng Phakoana - Role: Faculty Admin
+Login at 2024-11-13 05:02:46 - User: Monaheng Phakoana - Role: Faculty Admin
+Login at 2024-11-13 05:04:23 - User: Monaheng Phakoana - Role: Faculty Admin
+Login at 2024-11-13 05:05:45 - User: Monaheng Phakoana - Role: Faculty Admin
+Login at 2024-11-13 05:06:32 - User: Monaheng Phakoana - Role: Faculty Admin
+Login at 2024-11-13 05:07:32 - User: Monaheng Phakoana - Role: Faculty Admin
+Login at 2024-11-13 05:14:23 - User: Monaheng Phakoana - Role: Faculty Admin
+Login at 2024-11-13 05:19:11 - User: Monaheng Phakoana - Role: Faculty Admin
+Login at 2024-11-13 05:23:13 - User: Monaheng Phakoana - Role: Faculty Admin
+Login at 2024-11-13 05:26:16 - User: Monaheng Phakoana - Role: Faculty Admin
+Login at 2024-11-13 06:02:47 - User: Monaheng Phakoana - Role: Faculty Admin
+Login at 2024-11-13 06:04:36 - User: Monaheng Phakoana - Role: Faculty Admin
+Login at 2024-11-13 06:24:20 - User: Ikaneng Makakole - Role: Faculty Admin
+Login at 2024-11-13 06:33:11 - User: Purity Thakanyane - Role: Principal Lecturer
+Login at 2024-11-13 06:33:29 - User: Purity Thakanyane - Role: Principal Lecturer
+Login at 2024-11-13 06:34:31 - User: Purity Thakanyane - Role: Principal Lecturer
+Login at 2024-11-13 06:35:32 - User: Purity Thakanyane - Role: Principal Lecturer
+Login at 2024-11-13 06:36:42 - User: Monaheng Phakoana - Role: Faculty Admin
+Login at 2024-11-13 06:38:32 - User: Ikaneng Makakole - Role: Faculty Admin
+Login at 2024-11-13 06:40:38 - User: Thiza Mositi - Role: Principal Lecturer
+Login at 2024-11-13 06:41:00 - User: Thiza Mositi - Role: Principal Lecturer
+Login at 2024-11-13 06:41:40 - User: Monaheng Phakoana - Role: Faculty Admin
+Login at 2024-11-13 07:08:19 - User: Monaheng Phakoana - Role: Faculty Admin
+Login at 2024-11-13 07:09:03 - User: Thiza Mositi - Role: Principal Lecturer
+Login at 2024-11-13 07:09:50 - User: Tlotliso mothibeli - Role: Lecturer
+Login at 2024-11-13 07:10:38 - User: Monaheng Phakoana - Role: Faculty Admin
+Login at 2024-11-13 07:21:47 - User: Thiza Mositi - Role: Principal Lecturer
+Login at 2024-11-13 07:25:10 - User: Tlotliso mothibeli - Role: Lecturer
+Login at 2024-11-13 07:29:10 - User: Monaheng Phakoana - Role: Faculty Admin
+Login at 2024-11-13 07:39:18 - User: Purity Thakanyane - Role: Principal Lecturer
+Login at 2024-11-13 07:41:02 - User: Tlotliso mothibeli - Role: Lecturer
+Login at 2024-11-13 07:42:34 - User: Monaheng Phakoana - Role: Faculty Admin
+Login at 2024-11-13 07:45:33 - User: Tlotliso mothibeli - Role: Lecturer
+Login at 2024-11-13 07:56:47 - User: Monaheng Phakoana - Role: Faculty Admin
+Login at 2024-11-13 08:06:06 - User: Tlotliso mothibeli - Role: Lecturer
+Login at 2024-11-13 08:08:19 - User: Tlotliso mothibeli - Role: Lecturer
+Login at 2024-11-13 08:10:34 - User: Monaheng Phakoana - Role: Faculty Admin
+Login at 2024-11-13 08:16:17 - User: Purity Thakanyane - Role: Lecturer
+Login at 2024-11-13 09:55:05 - User: Monaheng Phakoana - Role: Faculty Admin
+Login at 2024-11-13 10:09:45 - User: Monaheng Phakoana - Role: Faculty Admin
+Login at 2024-11-13 23:26:38 - User: Tlotlisomothibeli - Role: Lecturer
+Login at 2024-11-13 23:34:34 - User: MonahengPhakoana - Role: Faculty Admin
+Login at 2024-11-13 23:37:20 - User: MonahengPhakoana - Role: Faculty Admin
+Login at 2024-11-13 23:48:48 - User: Tlotlisomothibeli - Role: Lecturer
+Login at 2024-11-14 00:31:05 - User: MonahengPhakoana - Role: Faculty Admin
+Login at 2024-11-14 00:38:00 - User: Nthabiseng - Role: Principal Lecturer
+Login at 2024-11-14 00:39:46 - User: Tlotlisomothibeli - Role: Lecturer
+Login at 2024-11-14 04:16:07 - User: MonahengPhakoana - Role: Faculty Admin
+Login at 2024-11-14 05:18:03 - User: MonahengPhakoana - Role: Faculty Admin
+Login at 2024-11-14 05:34:42 - User: MonahengPhakoana - Role: Faculty Admin
+Login at 2024-11-14 05:39:40 - User: MonahengPhakoana - Role: Faculty Admin
+Login at 2024-11-14 05:41:58 - User: MonahengPhakoana - Role: Faculty Admin
+Login at 2024-11-14 05:45:15 - User: MonahengPhakoana - Role: Faculty Admin
+Login at 2024-11-14 05:46:42 - User: MonahengPhakoana - Role: Faculty Admin
+Login at 2024-11-14 05:47:28 - User: MonahengPhakoana - Role: Faculty Admin
+Login at 2024-11-14 05:48:30 - User: MonahengPhakoana - Role: Faculty Admin
+Login at 2024-11-14 05:58:59 - User: MonahengPhakoana - Role: Faculty Admin
+Login at 2024-11-14 06:09:42 - User: MonahengPhakoana - Role: Faculty Admin
+Login at 2024-11-14 06:11:20 - User: MonahengPhakoana - Role: Faculty Admin
+Login at 2024-11-14 06:11:57 - User: MonahengPhakoana - Role: Faculty Admin
+Login at 2024-11-14 06:12:36 - User: ThizaMositi - Role: Principal Lecturer
+Login at 2024-11-14 06:15:24 - User: ThizaMositi - Role: Principal Lecturer
+Login at 2024-11-14 06:18:18 - User: ThizaMositi - Role: Principal Lecturer
+Login at 2024-11-14 06:19:36 - User: ThizaMositi - Role: Principal Lecturer
+Login at 2024-11-14 06:21:18 - User: ThizaMositi - Role: Principal Lecturer
+Login at 2024-11-14 06:22:55 - User: ThizaMositi - Role: Principal Lecturer
+Login at 2024-11-14 06:25:09 - User: ThizaMositi - Role: Principal Lecturer
+Login at 2024-11-14 06:27:18 - User: ThizaMositi - Role: Principal Lecturer
+Login at 2024-11-14 06:28:58 - User: ThizaMositi - Role: Principal Lecturer
+Login at 2024-11-14 06:32:28 - User: ThizaMositi - Role: Principal Lecturer
+Login at 2024-11-14 06:34:57 - User: ThizaMositi - Role: Principal Lecturer
+Login at 2024-11-14 06:42:09 - User: ThizaMositi - Role: Principal Lecturer
+Login at 2024-11-14 06:46:06 - User: ThizaMositi - Role: Principal Lecturer
+Login at 2024-11-14 07:11:17 - User: ThizaMositi - Role: Principal Lecturer
+Login at 2024-11-14 07:22:14 - User: ThizaMositi - Role: Principal Lecturer
+Login at 2024-11-14 07:24:18 - User: ThizaMositi - Role: Principal Lecturer
+Login at 2024-11-14 08:09:39 - User: MonahengPhakoana - Role: Faculty Admin
+Login at 2024-11-14 08:10:52 - User: ThizaMositi - Role: Principal Lecturer
+Login at 2024-11-14 08:13:12 - User: MonahengPhakoana - Role: Faculty Admin

@@ -1,0 +1,7 @@
+                            <mainClass>
+                                com.example.limkokwingsystemmanagement/com.example.limkokwingsystemmanagement.HelloApplication
+                            </mainClass>
+<name>LimkokwingSystemManagement</name>
+
+monahengphakoana692@gmail.com
+monahengphakoana

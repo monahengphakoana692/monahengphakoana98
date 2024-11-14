@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="799.0" prefWidth="1283.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.limkokwingsystemmanagement.AssignLecturerController">
+   <children>
+      <AnchorPane prefHeight="894.0" prefWidth="1707.0" style="-fx-background-color: gray;">
+         <children>
+            <ImageView fitHeight="934.0" fitWidth="1881.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@admin.jpg" />
+               </image>
+            </ImageView>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#14802cd6" height="934.0" stroke="TRANSPARENT" strokeType="INSIDE" width="1881.0" />
+            <Pane layoutX="469.0" layoutY="27.0" opacity="0.7" prefHeight="539.0" prefWidth="378.0" style="-fx-background-color: #24a913;">
+               <children>
+                  <Text fill="WHITE" layoutX="136.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lecturer">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Text>
+                  <ChoiceBox fx:id="LecChoice" layoutX="36.0" layoutY="101.0" prefHeight="33.0" prefWidth="288.0" style="-fx-background-color: white;" />
+                  <Text fx:id="LecNamId" fill="WHITE" layoutX="35.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lecturer's name" />
+                  <ChoiceBox fx:id="roleChoice" layoutX="36.0" layoutY="189.0" prefHeight="33.0" prefWidth="288.0" style="-fx-background-color: white;" />
+                  <Text fx:id="RoleId" fill="WHITE" layoutX="38.0" layoutY="166.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Role" />
+                  <Text fx:id="ModId" fill="WHITE" layoutX="36.0" layoutY="259.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Module" />
+                  <Text fx:id="ClassId" fill="WHITE" layoutX="37.0" layoutY="345.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Classes" />
+                  <TextField fx:id="ClassTxtId" layoutX="37.0" layoutY="355.0" prefHeight="33.0" prefWidth="288.0" />
+                  <Button fx:id="LecSavBtnId" layoutX="116.0" layoutY="475.0" mnemonicParsing="false" onAction="#LecturerAssigning" prefHeight="33.0" prefWidth="129.0" styleClass="AddLecture" stylesheets="@dashBoard.css" text="Save" textFill="WHITE">
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </Button>
+                  <ChoiceBox fx:id="modChoice" layoutX="36.0" layoutY="286.0" prefHeight="33.0" prefWidth="288.0" style="-fx-background-color: white;" />
+                  <Label fx:id="warnLabel" layoutX="104.0" layoutY="14.0" prefHeight="17.0" prefWidth="148.0" textFill="#ff0101" />
+                  <TextField fx:id="password" layoutX="42.0" layoutY="428.0" prefHeight="33.0" prefWidth="288.0" />
+                  <Label layoutX="39.0" layoutY="403.0" text="Password" textFill="#f2ebeb" />
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

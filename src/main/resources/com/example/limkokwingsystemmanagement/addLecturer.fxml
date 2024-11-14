@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="811.0" prefWidth="1522.0" stylesheets="dashBoard.css" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.limkokwingsystemmanagement.AddLecturerController">
+   <children>
+      <ImageView fitHeight="894.0" fitWidth="1707.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@admin.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#14802cba" height="894.0" stroke="TRANSPARENT" strokeType="INSIDE" width="1707.0" />
+      <Pane layoutX="481.0" layoutY="34.0" opacity="0.84" prefHeight="526.0" prefWidth="454.0" style="-fx-background-color: #08664d;">
+         <styleClass>
+            <String fx:value="-fx-effect: dropshadow(three-pass-box" />
+            <String fx:value="grey" />
+            <String fx:value="10" />
+            <String fx:value="0" />
+            <String fx:value="0" />
+            <String fx:value="15);" />
+         </styleClass>
+         <children>
+            <Label layoutX="39.0" layoutY="14.0" text="*" textFill="#f2ea07">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <Label layoutX="414.0" layoutY="17.0" text="*" textFill="#fced11">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <Label layoutX="87.0" layoutY="9.0" prefHeight="43.0" prefWidth="279.0" text="Lecturer Registration" textFill="#8cdf83">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </Label>
+            <TextField fx:id="namesID" layoutX="84.0" layoutY="88.0" prefHeight="35.0" prefWidth="301.0" promptText=" name surname" style="-fx-border-color: lime;" />
+            <Label layoutX="85.0" layoutY="62.0" prefHeight="20.0" prefWidth="48.0" text="Names:" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="QuansID" layoutX="82.0" layoutY="174.0" prefHeight="35.0" prefWidth="301.0" promptText="Ms in Computer Science/Bsc in Information Technology" style="-fx-border-color: lime;" />
+            <Label layoutX="82.0" layoutY="157.0" text="Qualifications:" textFill="#fcfcfc" />
+            <TextField fx:id="FCID" layoutX="80.0" layoutY="254.0" prefHeight="35.0" prefWidth="301.0" promptText="communication technology" style="-fx-border-color: lime;" />
+            <Label layoutX="81.0" layoutY="234.0" prefHeight="20.0" prefWidth="48.0" text="Faculty:" textFill="#faf9f9" />
+            <Button fx:id="addLectureID" layoutX="125.0" layoutY="470.0" mnemonicParsing="false" onAction="#adLecturer" prefHeight="35.0" prefWidth="227.0" styleClass="AddLecture" stylesheets="@dashBoard.css" text="ADD LECTURER" />
+            <TextField fx:id="ContactsID" layoutX="81.0" layoutY="328.0" prefHeight="35.0" prefWidth="301.0" promptText="+266 60605690" style="-fx-border-color: lime;" />
+            <Label layoutX="82.0" layoutY="307.0" prefHeight="20.0" prefWidth="63.0" text="Contacts:" textFill="#faf9f9" />
+            <TextField fx:id="EmailID" layoutX="82.0" layoutY="398.0" prefHeight="35.0" prefWidth="301.0" promptText="example@limkos.cm" style="-fx-border-color: lime;" />
+            <Label layoutX="83.0" layoutY="381.0" prefHeight="20.0" prefWidth="63.0" text="Email:" textFill="#faf9f9" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

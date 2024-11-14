@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane prefHeight="811.0" prefWidth="1672.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.limkokwingsystemmanagement.TableController">
+   <children>
+      <ImageView fitHeight="869.0" fitWidth="1703.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@admin.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#14802c98" height="820.0" stroke="TRANSPARENT" strokeType="INSIDE" width="1703.0" />
+       <TableView fx:id="tableView" layoutX="85.0" layoutY="85.0" prefHeight="400.0" prefWidth="1054.0" xmlns:fx="http://javafx.com/fxml">
+           <columns>
+               <TableColumn fx:id="nameColumn" prefWidth="125.60000306367874" text="Names" />
+               <TableColumn fx:id="roleColumn" minWidth="4.0" prefWidth="126.39996337890625" text="Role" />
+               <TableColumn fx:id="facultyColumn" prefWidth="90.39994812011719" text="Faculty" />
+               <TableColumn fx:id="classesColumn" prefWidth="80.800048828125" text="Classes" />
+               <TableColumn fx:id="moduleColumn" prefWidth="152.79998779296875" text="Module" />
+               <TableColumn fx:id="qualificationsColumn" prefWidth="163.99993896484375" text="Qualifications" />
+               <TableColumn fx:id="contactsColumn" prefWidth="115.2000732421875" text="Contacts" />
+               <TableColumn fx:id="emailColumn" prefWidth="201.5999755859375" text="Email" />
+           </columns>
+       </TableView>
+
+   </children>
+</AnchorPane>

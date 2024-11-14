@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="811.0" prefWidth="1522.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.limkokwingsystemmanagement.PrincipalLecturerController">
+    <children>
+        <Pane layoutX="254.0" layoutY="-11.0" prefHeight="830.0" prefWidth="1268.0">
+            <children>
+                <Pane layoutX="-32.0" layoutY="6.0" prefHeight="814.0" prefWidth="1323.0" style="-fx-background-color: gray;">
+                    <children>
+                        <Pane layoutX="6.0" layoutY="-4.0" prefHeight="218.0" prefWidth="1308.0" style="-fx-background-color: gray;">
+                            <children>
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#14802d" height="218.0" stroke="TRANSPARENT" strokeType="INSIDE" width="1313.0" />
+                                <Pane layoutX="10.0" layoutY="8.0" prefHeight="205.0" prefWidth="433.0" styleClass="BackgroundColor" stylesheets="@dashBoard.css">
+                                    <children>
+                                        <Text fx:id="txtTModules" fill="WHITE" layoutX="158.0" layoutY="137.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total Modules">
+                                            <font>
+                                                <Font size="29.0" />
+                                            </font>
+                                        </Text>
+                                        <Text fx:id="txtTmodules" fill="WHITE" layoutX="340.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10">
+                                            <font>
+                                                <Font size="40.0" />
+                                            </font>
+                                        </Text>
+                                    </children>
+                                    <effect>
+                                        <DropShadow />
+                                    </effect>
+                                </Pane>
+                                <Pane layoutX="452.0" layoutY="8.0" prefHeight="205.0" prefWidth="420.0" style="-fx-background-color: #14802d;" stylesheets="@dashBoard.css">
+                                    <children>
+                                        <Text fx:id="txtTClasses" fill="WHITE" layoutX="157.0" layoutY="134.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total Classes">
+                                            <font>
+                                                <Font size="29.0" />
+                                            </font>
+                                        </Text>
+                                        <Text fx:id="txtTclasses" fill="WHITE" layoutX="335.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="20">
+                                            <font>
+                                                <Font size="40.0" />
+                                            </font>
+                                        </Text>
+                                    </children>
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                                </Pane>
+                                <Pane layoutX="883.0" layoutY="8.0" prefHeight="205.0" prefWidth="420.0" styleClass="backgroundColor1" stylesheets="@dashBoard.css">
+                                    <children>
+                                        <Text fx:id="txtDModified" fill="WHITE" layoutX="160.0" layoutY="141.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date Modified">
+                                            <font>
+                                                <Font size="29.0" />
+                                            </font>
+                                        </Text>
+                                        <Text fx:id="TtlStuNumId" fill="WHITE" layoutX="186.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10/11/2024">
+                                            <font>
+                                                <Font size="40.0" />
+                                            </font>
+                                        </Text>
+                                    </children>
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                                </Pane>
+                            </children>
+                            <effect>
+                                <DropShadow />
+                            </effect>
+                        </Pane>
+                        <Pane fx:id="displayContent" accessibleRole="IMAGE_VIEW" layoutX="6.0" layoutY="220.0" prefHeight="587.0" prefWidth="1308.0" style="-fx-background-color: gray;">
+                            <effect>
+                                <DropShadow />
+                            </effect>
+                     <children>
+                        <ImageView fitHeight="876.0" fitWidth="1347.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@RPrincipal.jpg" />
+                           </image>
+                        </ImageView>
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#14802c80" height="593.0" stroke="TRANSPARENT" strokeType="INSIDE" width="1313.0" />
+                     </children>
+                  </Pane>
+                    </children>
+                </Pane>
+            </children>
+        </Pane>
+        <Pane fx:id="sidepainid" layoutY="-3.0" prefHeight="814.0" prefWidth="222.0" styleClass="AdminBackground" stylesheets="@dashBoard.css">
+            <children>
+                <Line endX="121.0" layoutX="100.0" layoutY="220.0" startX="-100.0" />
+                <Text fx:id="txtPrincipal" fill="WHITE" layoutX="8.0" layoutY="143.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Principal:" wrappingWidth="70.99999999999994">
+                    <font>
+                        <Font size="16.0" />
+                    </font>
+                </Text>
+                <Text fx:id="txtloadWeeklyReport" fill="WHITE" layoutX="45.0" layoutY="346.0" onMouseClicked="#loadWeeklyReport" strokeType="OUTSIDE" strokeWidth="0.0" text="AddWeeklyReport">
+                    <font>
+                        <Font size="20.0" />
+                    </font>
+                </Text>
+                <Text fx:id="txtlogout" fill="WHITE" layoutX="75.0" layoutY="740.0" onMouseClicked="#logout" strokeType="OUTSIDE" strokeWidth="0.0" text="logout">
+                    <font>
+                        <Font size="20.0" />
+                    </font>
+                </Text>
+                <Rectangle fx:id="RectangleId" arcHeight="5.0" arcWidth="5.0" fill="#14802e" height="218.0" layoutX="1.0" layoutY="2.0" stroke="TRANSPARENT" strokeType="INSIDE" width="222.0" />
+                <ImageView fx:id="ProfilePicture" fitHeight="128.0" fitWidth="134.0" layoutX="36.0" layoutY="28.0" onMouseClicked="#ZoomPic" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@smiling_man_with_beard.jpg" />
+                    </image>
+                </ImageView>
+                <Circle fx:id="CircleId" fill="#1f93ff00" layoutX="104.0" layoutY="76.0" onMouseClicked="#ZoomPic" radius="118.0" stroke="#14802d" strokeType="INSIDE" strokeWidth="80.0" />
+                <Label fx:id="LblName" layoutX="82.0" layoutY="124.0" prefHeight="27.0" prefWidth="155.0" text="Monaheng Phakoana" textFill="WHITE">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Label>
+                <Text fx:id="AdminId" fill="WHITE" layoutX="14.0" layoutY="142.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Principal :">
+                    <font>
+                        <Font size="16.0" />
+                    </font>
+                </Text>
+                <Label fx:id="currentAcademicyear" layoutX="126.0" layoutY="148.0" prefHeight="27.0" prefWidth="71.0" text="2024/2025" textFill="WHITE">
+                    <font>
+                        <Font size="13.0" />
+                    </font>
+                </Label>
+                <Text fill="WHITE" layoutX="24.0" layoutY="165.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Academic year:" wrappingWidth="102.00000000000011">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Text> <ImageView fitHeight="39.0" fitWidth="26.0" layoutX="15.0" layoutY="281.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="39.0" fitWidth="26.0" layoutX="17.0" layoutY="338.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+
+                    </image>
+                </ImageView>
+
+                <ImageView fitHeight="39.0" fitWidth="26.0" layoutX="17.0" layoutY="396.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+
+                    </image>
+                </ImageView>
+                <Circle fill="#14802c" layoutX="145.0" layoutY="98.0" radius="17.0" stroke="#0000006f" strokeType="INSIDE" />
+                <ImageView fx:id="CamImage" fitHeight="27.0" fitWidth="25.0" layoutX="133.0" layoutY="84.0" onMouseClicked="#setProfilePic" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@camera.png" />
+                    </image>
+                </ImageView>
+            <ImageView layoutX="29.0" layoutY="718.0" onMouseClicked="#logout">
+               <image>
+                  <Image url="@icons8-logout-30.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="20.0" fitWidth="25.0" layoutX="15.0" layoutY="328.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@addIcon.png" />
+               </image>
+            </ImageView>
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="608.0" prefWidth="1086.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.limkokwingsystemmanagement.Attendence">
+    <children>
+      <Pane layoutX="2.0" prefHeight="608.0" prefWidth="1086.0" style="-fx-background-color: white;">
+         <children>
+              <!-- Button to display classes -->
+              <Button fx:id="btndisplay" layoutX="52.0" layoutY="20.0" onAction="#Display" prefHeight="25.0" prefWidth="116.0" text="Display Classes" />
+      
+                    <!-- Button to show module outline -->
+              <Button fx:id="btnShowModuleOutline" layoutX="625.0" layoutY="17.0" mnemonicParsing="false" onAction="#ShowModuleOutline" prefHeight="25.0" prefWidth="143.0" text="Show Module Outline" />
+         </children></Pane>
+      <Pane fx:id="TablepaneId" layoutX="50.0" layoutY="60.0" prefHeight="500.0" prefWidth="954.0" style="-fx-background-color: white;">
+   
+           <TableView fx:id="attendanceTable" prefHeight="500.0" prefWidth="443.0">
+               <columns>
+                   <TableColumn fx:id="timestampColumn" prefWidth="120" text="Timestamp" />
+                   <TableColumn fx:id="studentNameColumn" prefWidth="120" text="Student Name" />
+                   <TableColumn fx:id="presentColumn" prefWidth="100" text="Present" />
+                   <TableColumn fx:id="absentColumn" prefWidth="100" text="Absent" />
+               </columns>
+           </TableView>
+         <Button layoutX="1.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="122.0" />
+
+            <!-- Label for classes -->
+            <Label layoutX="41.0" layoutY="4.0" text="Classes:">
+                <font>
+                    <Font name="System Bold" size="14.0" />
+                </font></Label>
+   
+              <!-- Module Outline Table -->
+           <TableView fx:id="moduleOutlineTable" prefHeight="500.0" prefWidth="954.0" visible="false">
+               <columns>
+                   <TableColumn fx:id="chapterNumberColumn" prefWidth="100" text="Chapter Number" />
+                   <TableColumn fx:id="chapterNameColumn" prefWidth="150" text="Chapter Name" />
+                   <TableColumn fx:id="chapterDescriptionColumn" prefWidth="440.79998779296875" text="Chapter Description" />
+                   <TableColumn fx:id="learningOutcomesColumn" prefWidth="262.39996337890625" text="Learning Outcomes" />
+   
+                  </columns>
+           </TableView>
+
+            <!-- ListView to display class names -->
+            <ListView fx:id="classListView" layoutX="1.0" layoutY="24.0" prefHeight="476.0" prefWidth="122.0" style="-fx-background-color: white;" />
+        </Pane>
+
+
+
+    </children>
+</AnchorPane>
